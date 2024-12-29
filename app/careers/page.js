@@ -3,16 +3,15 @@ import { HeroSection } from "@/components/partials/home/HeroSection.js";
 
 
 export const metadata = {
-  title: 'Home - My Website',
-  description: 'Welcome to my website! Explore our amazing content.',
+    title: 'Careers - My Website',
+    description: 'Welcome to my website! Explore our amazing content.',
 };
 
 
 export default function Home() {
-  return (
-    <>
-      <HeroSection />
-      <FirstSection />
-    </>
-  );
+    return (
+        <>
+            <HeroSection />
+        </>
+    );
 }

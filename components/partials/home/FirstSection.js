@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Button } from "../UI/Button";
+import { Button } from "../UI/Button.js";
 
 export function FirstSection() {
     return <div className=" relative">

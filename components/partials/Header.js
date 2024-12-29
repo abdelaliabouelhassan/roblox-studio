@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link'
-import { Button } from "./UI/Button"
-import MenuButton from "./UI/MenuButton"
+import { Button } from "./UI/Button.js"
+import MenuButton from "./UI/MenuButton.js"
 import { useEffect, useState } from "react";
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,7 +36,7 @@ export function Header() {
         <nav className="  items-center gap-8 hidden md:flex ">
           <Link href="/" className=" font-medium font-futura text-lg text-white hover:text-opacity-90 duration-200">Home</Link>
           <Link href="/" className=" font-medium font-futura text-lg text-white hover:text-opacity-90 duration-200">About Us</Link>
-          <Link href="/" className=" font-medium font-futura text-lg text-white hover:text-opacity-90 duration-200">Careers</Link>
+          <Link href="/careers" className=" font-medium font-futura text-lg text-white hover:text-opacity-90 duration-200">Careers</Link>
           <Link href="/" className=" font-medium font-futura text-lg text-white hover:text-opacity-90 duration-200">Contact</Link>
           <Button>
             <div className=" flex items-center gap-2">
@@ -75,7 +75,7 @@ export function Header() {
               <Link href="/" className="font-medium font-futura text-lg text-white hover:text-opacity-90 duration-200">
                 About Us
               </Link>
-              <Link href="/" className="font-medium font-futura text-lg text-white hover:text-opacity-90 duration-200">
+              <Link href="/careers" className="font-medium font-futura text-lg text-white hover:text-opacity-90 duration-200">
                 Careers
               </Link>
               <Link href="/" className="font-medium font-futura text-lg text-white hover:text-opacity-90 duration-200">
