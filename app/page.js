@@ -1,5 +1,6 @@
-import { FirstSection } from "@/components/partials/home/FirstSection.js";
-import { HeroSection } from "@/components/partials/home/HeroSection.js";
+import { FirstSection } from "@/components/partials/home/FirstSection";
+import { HeroSection } from "@/components/partials/home/HeroSection";
+import { SecondSection } from "@/components/partials/home/SecondSection";
 
 
 export const metadata = {
@@ -13,6 +14,7 @@ export default function Home() {
     <>
       <HeroSection />
       <FirstSection />
+      <SecondSection />
     </>
   );
 }

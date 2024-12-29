@@ -11,6 +11,23 @@ body {
   }
 }
 
+.splide__arrow {
+  @apply !w-11 !h-11 !bg-primary !opacity-100; 
+}
+
+.splide__pagination__page {
+  @apply !bg-primary !opacity-[0.4] 
+}/* Inactive */
+
+.splide__pagination__page.is-active {
+  @apply !bg-primary !opacity-[1] 
+}
+
+
+
+
+
+
 .gradient-background {
   background: linear-gradient(78.71deg, #000000 27.86%, rgba(0, 0, 0, 0) 88.85%);
 }
