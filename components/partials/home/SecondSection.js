@@ -12,11 +12,31 @@ export function SecondSection() {
         pagination: true,
         arrows: true,
         rewind: true,
+        mediaQuery: 'min',
+
+        breakpoints: {
+            1128: {
+                perPage: 3,
+            },
+            949: {
+                perPage: 2.5,
+            },
+            763: {
+                perPage: 2,
+            },
+            578: {
+                perPage: 1.5,
+            },
+            0: {
+                perPage: 1,
+            }
+
+        }
     };
 
     return (
-        <div className="relative r-container px-12 pb-24 space-y-24">
-            <div className=' w-full text-center'>
+        <div className="relative r-container px-12  py-24 ">
+            <div className=' w-full text-center pb-16'>
                 <h3 className=' text-wrap font-bold text-5xl text-effect'>
                     Latest Releases Game
                 </h3>
@@ -27,18 +47,39 @@ export function SecondSection() {
                 aria-label="My Favorite Images"
             >
                 {/* Added more slides for demonstration */}
+
                 <SplideTrack>
                     <SplideSlide>
-                        <div className='w-[370px] h-[475px] bg-red-400 rounded-lg'></div>
+                        <div className=' w-full sm:w-[370px] h-[475px] p-1 border-[3px] relative border-[#ffffff0f] rounded-xl'>
+                            <img src='/assets/home/sky.png' className=' w-full h-full object-cover' />
+                            <div className=' w-full absolute text-center bottom-9'>
+                                <span className=' text-white font-bold text-4xl text-center'>Sky Hunter</span>
+                            </div>
+                        </div>
                     </SplideSlide>
                     <SplideSlide>
-                        <div className='w-[370px] h-[475px] bg-red-400 rounded-lg'></div>
+                        <div className='w-full sm:w-[370px] h-[475px] p-1 border-[3px] relative border-[#ffffff0f] rounded-xl'>
+                            <img src='/assets/home/phonex.png' className=' w-full h-full object-cover' />
+                            <div className=' w-full absolute text-center bottom-9'>
+                                <span className=' text-white font-bold text-4xl text-center'>Sky Hunter</span>
+                            </div>
+                        </div>
                     </SplideSlide>
                     <SplideSlide>
-                        <div className='w-[370px] h-[475px] bg-red-400 rounded-lg'></div>
+                        <div className='w-full sm:w-[370px] h-[475px] p-1 border-[3px] relative border-[#ffffff0f] rounded-xl'>
+                            <img src='/assets/home/max.png' className=' w-full h-full object-cover' />
+                            <div className=' w-full absolute text-center bottom-9'>
+                                <span className=' text-white font-bold text-4xl text-center'>Sky Hunter</span>
+                            </div>
+                        </div>
                     </SplideSlide>
                     <SplideSlide>
-                        <div className='w-[370px] h-[475px] bg-red-400 rounded-lg'></div>
+                        <div className='w-full sm:w-[370px] h-[475px] p-1 border-[3px] relative border-[#ffffff0f] rounded-xl'>
+                            <img src='/assets/home/sky.png' className=' w-full h-full object-cover' />
+                            <div className=' w-full absolute text-center bottom-9'>
+                                <span className=' text-white font-bold text-4xl text-center'>Sky Hunter</span>
+                            </div>
+                        </div>
                     </SplideSlide>
 
                 </SplideTrack>

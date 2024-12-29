@@ -5,7 +5,7 @@ export function HeroSection() {
     return (
         <div className=" w-full relative">
             <div className=" w-full">
-                <img src="/assets/home/hero-bg.webp" className=" w-full h-[450px] sm:h-[500px] md:h-[645px] lg:h-full lg:object-cover" alt="" />
+                <img src="/assets/home/hero-bg.webp" className=" w-full h-[400px] sm:h-[500px] md:h-[645px] lg:h-full lg:object-cover" alt="" />
             </div>
             <div className=" h-full  w-full gradient-background  absolute top-0 left-0">
                 <div className=" r-container h-full flex flex-col justify-center">
