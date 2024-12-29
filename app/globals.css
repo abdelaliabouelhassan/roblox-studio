@@ -2,20 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+html,
+body {
+  @apply bg-black font-futura;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.gradient-background {
+  background: linear-gradient(78.71deg, #000000 27.86%, rgba(0, 0, 0, 0) 88.85%);
+}
+
+.text-effect {
+  text-shadow: -2px 0px 0px #00A8FF;
+}
+
+
+.r-container {
+  @apply max-w-[1171px] mx-auto px-4;
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url('/assets/fonts/Futura/FuturaPTHeavy.otf') format('opentype');
+  font-weight: 900; /* Heavy */
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url('/assets/fonts/Futura/FuturaPTExtraBold.otf') format('opentype');
+  font-weight: 800; /* Extra Bold */
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url('/assets/fonts/Futura/FuturaPTBold.otf') format('opentype');
+  font-weight: 700; /* Bold */
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url('/assets/fonts/Futura/FuturaPTMedium.otf') format('opentype');
+  font-weight: 500; /* Medium */
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url('/assets/fonts/Futura/FuturaPTDemi.otf') format('opentype');
+  font-weight: 600; /* Demi */
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url('/assets/fonts/Futura/FuturaPTLight.otf') format('opentype');
+  font-weight: 300; /* Light */
+}
+
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url('/assets/fonts/Futura/FuturaPTBook.otf') format('opentype');
+  font-weight: 400; /* normal */
 }
