@@ -35,7 +35,7 @@ export function SecondSection() {
     };
 
     return (
-        <div className="relative r-container px-12  py-24 ">
+        <div className="relative r-container px-12  pt-24 pb-40 ">
             <div className=' w-full text-center pb-16'>
                 <h3 className=' text-wrap font-bold text-5xl text-effect'>
                     Latest Releases Game

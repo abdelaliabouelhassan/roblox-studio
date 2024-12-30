@@ -1,6 +1,8 @@
 import { FirstSection } from "@/components/partials/home/FirstSection";
 import { HeroSection } from "@/components/partials/home/HeroSection";
 import { SecondSection } from "@/components/partials/home/SecondSection";
+import { ThirdSection } from "@/components/partials/home/ThirdSection";
+import { FifthSection } from "@/components/partials/home/FifthSection";
 
 
 export const metadata = {
@@ -15,6 +17,8 @@ export default function Home() {
       <HeroSection />
       <FirstSection />
       <SecondSection />
+      <ThirdSection />
+      <FifthSection />
     </>
   );
 }
