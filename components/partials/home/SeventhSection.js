@@ -1,13 +1,14 @@
 'use client'
 
 import { Button } from "../UI/Button";
+import { ContactCard } from "../UI/ContactCard";
 
 
 export function SeventhSection() {
 
 
     return (
-        <div className="relative r-container pt-10 lg:pt-40 pb-10">
+        <div className="relative r-container pt-10 lg:pt-40 pb-10 space-y-40">
             <div className=" flex items-center md:items-start md:flex-row flex-col md:justify-between gap-10 w-full">
                 <div className=" max-w-[370px] space-y-[48px]">
                     <div className=" space-y-3 text-center md:text-start">
@@ -105,7 +106,7 @@ export function SeventhSection() {
                 </div>
             </div>
 
-
+            <ContactCard />
         </div>
     );
 }
