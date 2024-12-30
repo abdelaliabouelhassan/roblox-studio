@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/partials/home/HeroSection";
 import { SecondSection } from "@/components/partials/home/SecondSection";
 import { ThirdSection } from "@/components/partials/home/ThirdSection";
 import { FifthSection } from "@/components/partials/home/FifthSection";
+import { SexthSection } from "@/components/partials/home/SexthSection";
 
 
 export const metadata = {
@@ -19,6 +20,7 @@ export default function Home() {
       <SecondSection />
       <ThirdSection />
       <FifthSection />
+      <SexthSection />
     </>
   );
 }
