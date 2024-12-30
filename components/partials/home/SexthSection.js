@@ -5,7 +5,7 @@ export function SexthSection() {
 
 
     return (
-        <div className="relative">
+        <section className="relative">
             <div className=" absolute w-full top-0 left-0 ">
                 <img src="/assets/home/sexth-bg.png" className=" w-full max-h-[822px] h-full " />
             </div>
@@ -82,6 +82,6 @@ export function SexthSection() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }

@@ -5,6 +5,7 @@ import { ThirdSection } from "@/components/partials/home/ThirdSection";
 import { FifthSection } from "@/components/partials/home/FifthSection";
 import { SexthSection } from "@/components/partials/home/SexthSection";
 import { SeventhSection } from "@/components/partials/home/SeventhSection";
+import { EightSection } from "@/components/partials/home/EightSection";
 
 
 export const metadata = {
@@ -23,6 +24,7 @@ export default function Home() {
       <FifthSection />
       <SexthSection />
       <SeventhSection />
+      <EightSection />
     </>
   );
 }

@@ -5,7 +5,7 @@ export function FifthSection() {
 
 
     return (
-        <div className="relative r-container pt-10 md:pt-40 pb-10 space-y-20">
+        <section className="relative r-container pt-10 md:pt-40 pb-10 space-y-20">
             <div className=" text-center max-w-[731px] mx-auto space-y-[24px]">
                 <h3 className=" text-effect text-white font-bold text-4xl sm:text-5xl">Defining Values of Our Company</h3>
                 <p className=" text-white text-base sm:text-lg font-normal">
@@ -96,6 +96,6 @@ export function FifthSection() {
                     </svg>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }

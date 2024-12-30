@@ -3,7 +3,7 @@ import { Button } from "../UI/Button.js";
 
 export function HeroSection() {
     return (
-        <div className=" w-full relative">
+        <section className=" w-full relative">
             <div className=" w-full">
                 <img src="/assets/home/hero-bg.webp" className=" w-full h-[400px] sm:h-[500px] md:h-[645px] lg:h-full lg:object-cover" alt="" />
             </div>
@@ -40,7 +40,7 @@ export function HeroSection() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

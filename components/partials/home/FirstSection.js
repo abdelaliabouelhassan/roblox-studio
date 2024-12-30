@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { Button } from "../UI/Button.js";
 
 export function FirstSection() {
-    return <div className=" relative">
+    return <section className=" relative">
         <div className=" w-full ">
             <img src="/assets/home/first-bg.webp" className=" w-full h-full absolute top-0 left-0 lg:relative lg:h-[774px] " alt="" />
         </div>
@@ -99,7 +99,7 @@ export function FirstSection() {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 }
 
 

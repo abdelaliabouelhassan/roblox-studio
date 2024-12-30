@@ -5,7 +5,7 @@ export function ThirdSection() {
 
 
     return (
-        <div className="relative">
+        <section className="relative">
             <div className=" absolute w-full top-0 left-0 ">
                 <img src="/assets/home/ThirdSection-bg.png" className=" w-full max-h-[1025px] h-full " />
             </div>
@@ -69,6 +69,6 @@ export function ThirdSection() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
