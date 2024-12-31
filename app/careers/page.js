@@ -1,5 +1,6 @@
-import { FirstSection } from "@/components/partials/home/FirstSection.js";
-import { HeroSection } from "@/components/partials/home/HeroSection.js";
+import { HeroSection } from "@/components/partials/careers/HeroSection";
+import { FirstSection } from "@/components/partials/careers/FirstSection";
+
 
 
 export const metadata = {
@@ -12,6 +13,7 @@ export default function Home() {
     return (
         <>
             <HeroSection />
+            <FirstSection />
         </>
     );
 }
