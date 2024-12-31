@@ -1,9 +1,9 @@
 export function ContactCard() {
-    return <div className=" w-full rounded-[44px] relative">
+    return <div className=" w-full rounded-2xl md:rounded-[44px] overflow-hidden h-44 md:h-fit relative">
         <img src="/assets/contactCard.png" className=" w-full h-full object-cover" />
         <div className=" w-full h-full absolute top-0 left-0 px-5 md:p-20 lg:p-[100px] z-10">
-            <div className=" w-full h-full flex items-center justify-between">
-                <h3 className=" text-white font-semibold text-lg sm:text-2xl md:text-5xl lg:text-[56px] lg:leading-[64px]">
+            <div className=" w-full h-full flex items-center md:flex-row flex-col justify-center gap-5 md:justify-between">
+                <h3 className=" text-center md:text-start text-white font-semibold text-lg sm:text-2xl md:text-5xl lg:text-[56px] lg:leading-[64px]">
                     Connect with us <br /> for gamING update.
                 </h3>
 
