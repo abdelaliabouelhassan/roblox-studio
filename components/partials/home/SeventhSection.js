@@ -81,7 +81,7 @@ export function SeventhSection() {
                     </div>
 
 
-                    <Button>
+                    <Button bg="bg-[#0F0F0F]">
                         <div className=" flex items-center gap-2">
                             <span className=" uppercase text-white font-medium text-sm md:text-base">Submit</span>
                             <svg
