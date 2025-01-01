@@ -4,7 +4,7 @@
 
 html,
 body {
-  @apply bg-black font-futura;
+  @apply bg-black font-futura text-white;
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
