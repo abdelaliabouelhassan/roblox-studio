@@ -1,7 +1,7 @@
 import { Button } from "../UI/Button";
 
 export function FirstSection() {
-    return <div className=" r-container pt-20">
+    return <div className=" r-container pt-20 pb-10 sm:pb-44">
         <div className=" flex items-center lg:items-start lg:flex-row flex-col lg:justify-between gap-[30px] w-full">
             <div className=" max-w-[370px] w-full flex flex-col gap-8 sm:gap-14">
                 <h2 className=" text-white font-bold text-3xl sm:text-5xl text-effect">Innovating Roblox Video Gaming</h2>
