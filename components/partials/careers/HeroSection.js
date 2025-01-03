@@ -3,7 +3,7 @@ import Link from "next/link";
 export function HeroSection() {
     return <section className=" relative bg-primary">
         <div>
-            <img src="/assets/hero-bg.png" className=" w-full h-full" />
+            <img src="/assets/hero-bg.png" className=" w-full h-full  md:max-h-[488px]" />
         </div>
         <div className=" absolute w-full h-full top-0 left-0  flex">
             <div className=" m-auto flex flex-col items-center gap-5">

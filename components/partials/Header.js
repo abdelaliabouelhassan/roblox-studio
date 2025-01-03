@@ -39,7 +39,7 @@ export function Header() {
           <Link href="/" className="font-medium font-futura text-lg text-white hover:text-opacity-90 duration-200">Home</Link>
           <Link href="/about-us" className="font-medium font-futura text-lg text-white hover:text-opacity-90 duration-200">About Us</Link>
           <Link href="/careers" className="font-medium font-futura text-lg text-white hover:text-opacity-90 duration-200">Careers</Link>
-          <Link href="/" className="font-medium font-futura text-lg text-white hover:text-opacity-90 duration-200">Contact</Link>
+          <Link href="/#contact" className="font-medium font-futura text-lg text-white hover:text-opacity-90 duration-200">Contact</Link>
           <Button>
             <div className="flex items-center gap-2">
               <span className="uppercase text-white font-medium text-base">GET STARTED</span>
@@ -78,7 +78,7 @@ export function Header() {
               <Link href="/careers" onClick={handleLinkClick} className="font-medium font-futura text-lg text-white hover:text-opacity-90 duration-200">
                 Careers
               </Link>
-              <Link href="/" onClick={handleLinkClick} className="font-medium font-futura text-lg text-white hover:text-opacity-90 duration-200">
+              <Link href="/#contact" onClick={handleLinkClick} className="font-medium font-futura text-lg text-white hover:text-opacity-90 duration-200">
                 Contact
               </Link>
               <Button onClick={handleLinkClick}>
